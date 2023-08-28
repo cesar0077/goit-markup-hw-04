@@ -72,6 +72,10 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  padding: 1.4805rem 0rem;
+}
 .header li a {
   text-decoration: none;
 }

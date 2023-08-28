@@ -171,11 +171,17 @@ img {
 .item-navbar {
   margin-right: 5rem;
 }
+.solution {
+  max-width: 160rem;
+  margin: 0 auto;
+}
+
 section.solution {
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/img-hero.png);
-  background-size: cover;
+  background-size: 100%, 160rem;
   background-position: bottom center;
+  background-repeat: no-repeat;
 }
 .solution {
   display: flex;
@@ -569,15 +575,21 @@ section.solution {
   padding-bottom: 14.8rem;
 }
 
-.list-customers .icon {
+.list-customers li {
+  padding: 1.09rem 3.2rem;
   fill: #afb1b8;
   border: 0.1rem solid #afb1b8;
   border-radius: 0.4rem;
 }
 
-.list-customers .icon:hover,
-.list-customers .icon:focus {
+.list-customers li:hover,
+.list-customers li:focus {
   fill: var(--skyblue-color);
   border: 1px solid var(--skyblue-color);
   outline: none;
+}
+
+.list-customers .icon:hover,
+.list-customers .icon:focus {
+  fill: var(--skyblue-color);
 }

@@ -25,6 +25,7 @@ body {
   font-family: var(--primary-fontFamily);
   color: var(--secondary-fontFamily);
   font-size: 1.6rem;
+  margin: 0;
 }
 
 .container {
@@ -71,6 +72,7 @@ ul li {
 img {
   display: block;
   max-width: 100%;
+  object-fit: cover;
 }
 
 header {
@@ -441,6 +443,11 @@ section.solution {
 .section-card {
   padding: 5rem 0 9.4rem 0;
 }
+
+.section-card ul {
+  margin: 0;
+}
+
 .card h4 {
   color: var(--text-primary-color);
   font-size: 1.8rem;
@@ -463,7 +470,7 @@ section.solution {
 }
 
 .card-products li {
-  flex-basis: calc(30.833%);
+  flex-basis: calc(30.83333333%);
   background-color: var(--color-white-100);
 }
 
@@ -481,7 +488,7 @@ section.solution {
 }
 
 .card-product p {
-  padding: 0.4rem 0 1.5rem 2.4rem;
+  padding: 0.4rem 0 1rem 2.4rem;
   margin: 0;
 }
 
@@ -576,7 +583,7 @@ section.solution {
   justify-content: space-between;
   align-items: center;
   margin: 0;
-  padding-bottom: 14.8rem;
+  padding-bottom: 8.2rem;
 }
 
 .list-customers li {
